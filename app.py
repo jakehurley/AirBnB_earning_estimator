@@ -89,10 +89,10 @@ with open('revenue_transformer_target.pkl', 'rb') as files:
 
 with open('dataframe.pkl', 'rb') as files:
     data = pickle.load(files)      
-
+"""
+    
 #button to predict outcome
 ok = st.button("Predict price and revenue")
-"""
 
 #button execution
 if ok: 
