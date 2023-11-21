@@ -2,5 +2,5 @@ plotly
 plotly.express
 pickle
 xgboost
-scikit-learn
+sklearn
 pandas
