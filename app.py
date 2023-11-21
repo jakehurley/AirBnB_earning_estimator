@@ -7,6 +7,8 @@ import plotly.express as px
 import xgboost
 import sklearn
 
+print(xgboost.__version__)
+
 
 #page title
 st.title('London AirBnB Tool')
