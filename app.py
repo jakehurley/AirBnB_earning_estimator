@@ -69,7 +69,7 @@ property = st.sidebar.selectbox('What type of property is your lisiting?', prope
 #creating dataframe to store inputted values
 location_df = pd.DataFrame(np.zeros([1, len(locations)], dtype = int), columns = locations)
 property_df = pd.DataFrame(np.zeros([1, len(properties)], dtype = int), columns = properties)
-df = pd.concat([property_df, location_df], axis = 1)
+#df = pd.concat([property_df, location_df], axis = 1)
 
 #loading scalers/models/data
 #with open('xgb_rev.pkl', 'rb') as files:
