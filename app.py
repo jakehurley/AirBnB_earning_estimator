@@ -71,7 +71,6 @@ property_df = pd.DataFrame(np.zeros([1, len(properties)], dtype = int), columns 
 df = pd.concat([property_df, location_df], axis = 1)
 
 #loading scalers/models/data
-"""
 with open('xgb_rev.pkl', 'rb') as files:
    xgbreg_revenue = pickle.load(files)
 
@@ -89,7 +88,6 @@ with open('revenue_transformer_target.pkl', 'rb') as files:
 
 with open('dataframe.pkl', 'rb') as files:
     data = pickle.load(files)      
-"""
     
 #button to predict outcome
 ok = st.button("Predict price and revenue")
