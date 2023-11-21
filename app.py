@@ -7,7 +7,7 @@ import plotly.express as px
 import xgboost
 import sklearn
 
-print(xgboost.__version__)
+
 
 
 #page title
@@ -72,8 +72,8 @@ property_df = pd.DataFrame(np.zeros([1, len(properties)], dtype = int), columns 
 df = pd.concat([property_df, location_df], axis = 1)
 
 #loading scalers/models/data
-with open('xgb_rev.pkl', 'rb') as files:
-    xgbreg_revenue = pickle.load(files)
+#with open('xgb_rev.pkl', 'rb') as files:
+   # xgbreg_revenue = pickle.load(files)
 
 with open('ridge_price.pkl', 'rb') as files:
     ridge_price = pickle.load(files)
