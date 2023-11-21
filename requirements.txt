@@ -1,6 +1,6 @@
 plotly
 plotly.express
 pickle
-xgboost
+xgboost == 1.02
 sklearn
 pandas
