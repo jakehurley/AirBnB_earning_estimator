@@ -1,3 +1,6 @@
 plotly
 plotly.express
 pickle
+xgboost
+scikit-learn
+pandas
